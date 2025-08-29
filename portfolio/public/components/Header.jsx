@@ -1,11 +1,11 @@
 const Header = () => {
   return (
     <div>
-      <h1 className="text-2xl text-white flex justify-between">
+      <h1 className="text-2xl flex justify-between text-primary-white">
         <div>
           <span className="font-bold">Kauan</span>Constancio
         </div>
-        <div className="flex align-center gap-5 text-lg font-medium">
+        <div className="flex text-primary-white align-center gap-5 text-lg font-medium">
           <a href="">Tecnologias</a>
           <a href="">Projetos</a>
           <a href="">Certificador</a>

@@ -1,10 +1,9 @@
-
 import Social from "./Social";
 
 const Hero = () => {
   return (
     <div className="mt-15 flex items-center justify-center gap-20">
-      <div className="text-white">
+      <div className="text-primary-white">
         <h3 className="font-bold text-2xl">Hello, i'm Kauan.</h3>
         <h1 className="text-8xl font-extrabold">Front End Developer</h1>
         <p className="mt-10 text-lg">
