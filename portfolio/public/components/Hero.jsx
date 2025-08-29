@@ -1,3 +1,6 @@
+
+import Social from "./Social";
+
 const Hero = () => {
   return (
     <div className="mt-15 flex items-center justify-center gap-20">
@@ -10,13 +13,7 @@ const Hero = () => {
           aquele tipo de pessoa que gosta de aproveitar ao máximo a tecnologia
           que tenho em mãos e sempre me perguntei como as coisas funcionam.
         </p>
-        <div>
-          <a href=""></a>
-          <a href="">
-            <Github />
-          </a>
-          <a href=""></a>
-        </div>
+        <Social />
       </div>
       <img
         className="rounded-full h-80 aspect-square object-cover outline-white border-solid outline-2"

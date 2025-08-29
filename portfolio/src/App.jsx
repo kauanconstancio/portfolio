@@ -4,7 +4,7 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="bg-slate-900 w-screen h-screen pt-4 pl-40 pr-40">
+    <div className="bg-slate-900 w-screen h-full pt-4 pl-40 pr-40">
       <Header />
       <Hero />
     </div>
