@@ -8,4 +8,10 @@
   --color-border-white: #36393b;
   --color-dark-green: #1d372d;
   --radius-border-standard: 12px;
+  --color-background-card-color-hover: #212121;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }

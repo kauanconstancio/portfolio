@@ -3,7 +3,7 @@ import Formations from "./Formations";
 
 const Skills = () => {
   return (
-    <div className="mt-15">
+    <div>
       <h1 className="font-bold text-3xl text-neon-green mb-6">Competências</h1>
       <div className="flex auto-cols-auto">
         <Formations />
