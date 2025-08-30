@@ -107,7 +107,7 @@ const Projects = () => {
           </div>
         </div>
         {Projetos.map((projetos) => (
-          <div className="bg-grayBg rounded-border-standard">
+          <div className="bg-grayBg rounded-border-standard h-full">
             <img
               className="rounded-t-border-standard h-40 w-full object-cover"
               src={projetos.img}
