@@ -23,7 +23,8 @@ const Projects = () => {
       title: "Biblioteca de Jogos",
       projectLink: "",
       githubLink: "",
-      htmlcss: "../src/assets/lang-logos/html5_23329.png",
+      html: "../src/assets/lang-logos/html5_23329.png",
+      css: "../src/assets/lang-logos/css-3.svg",
       js: "../src/assets/lang-logos/JavaScript-logo.png",
       scss: "../src/assets/lang-logos/sass-1.svg",
       react: "",
@@ -36,7 +37,8 @@ const Projects = () => {
       title: "Adivinhação de Números",
       projectLink: "",
       githubLink: "",
-      htmlcss: "../src/assets/lang-logos/html5_23329.png",
+      html: "../src/assets/lang-logos/html5_23329.png",
+      css: "../src/assets/lang-logos/css-3.svg",
       js: "../src/assets/lang-logos/JavaScript-logo.png",
       scss: "../src/assets/lang-logos/sass-1.svg",
       react: "",
@@ -49,7 +51,8 @@ const Projects = () => {
       title: "Calculadora de Médias",
       projectLink: "",
       githubLink: "",
-      htmlcss: "../src/assets/lang-logos/html5_23329.png",
+      html: "../src/assets/lang-logos/html5_23329.png",
+      css: "../src/assets/lang-logos/css-3.svg",
       js: "../src/assets/lang-logos/JavaScript-logo.png",
       scss: "../src/assets/lang-logos/sass-1.svg",
       react: "",
@@ -62,7 +65,8 @@ const Projects = () => {
       title: "Cards de precificação",
       projectLink: "",
       githubLink: "",
-      htmlcss: "../src/assets/lang-logos/html5_23329.png",
+      html: "../src/assets/lang-logos/html5_23329.png",
+      css: "../src/assets/lang-logos/css-3.svg",
       js: "../src/assets/lang-logos/JavaScript-logo.png",
       scss: "../src/assets/lang-logos/sass-1.svg",
       react: "",
@@ -132,12 +136,13 @@ const Projects = () => {
                 </a>
               </div>
               <div className="flex gap-4 items-center flex-wrap mt-2">
-                <img className="w-7" src={projetos.htmlcss} />
-                <img className="w-7" src={projetos.js} />
-                <img className="w-7" src={projetos.scss} />
-                <img className="w-10" src={projetos.react} />
-                <img className="w-7" src={projetos.tailwind} />
-                <img className="w-7" src={projetos.vite} />
+                <img className="h-9" src={projetos.html} />
+                <img className="h-7" src={projetos.css} />
+                <img className="h-7" src={projetos.js} />
+                <img className="h-7" src={projetos.scss} />
+                <img className="h-10" src={projetos.react} />
+                <img className="h-7" src={projetos.tailwind} />
+                <img className="h-7" src={projetos.vite} />
               </div>
             </div>
           </div>
