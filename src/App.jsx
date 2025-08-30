@@ -1,5 +1,6 @@
 import Header from "../public/components/Header";
 import Hero from "../public/components/Hero";
+import Projects from "../public/components/Projects";
 import Skills from "../public/components/Skills";
 import Tecnologies from "../public/components/Tecnologies";
 import "./App.css";
@@ -13,6 +14,7 @@ function App() {
       </div>
       <Skills />
       <Tecnologies />
+      <Projects />
     </div>
   );
 }

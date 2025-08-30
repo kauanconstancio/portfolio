@@ -63,7 +63,7 @@ const Tecnologies = () => {
         </div>
         <div className="flex flex-col gap-3 bg-grayBg pt-5 pl-7 pb-5 pr-7 rounded-border-standard h-45 w-full hover:-translate-y-3 hover:bg-background-card-color-hover transition-all ease-in-out">
           <h2 className="flex items-center text-white font-bold text-lg gap-1">
-            <span className="text-neon-green font-extrabold text-lg">+</span>{" "}
+            <span className="text-neon-green font-extrabold text-lg">+</span>
             Frameworks
           </h2>
           <ul className="list-disc text-primary-white ml-9 items-center">
