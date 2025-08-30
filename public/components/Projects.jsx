@@ -114,35 +114,43 @@ const Projects = () => {
           <div className="bg-grayBg rounded-border-standard h-full">
             <img
               className="rounded-t-border-standard h-40 w-full object-cover"
+              key={projetos.id}
               src={projetos.img}
             />
             <div className="p-5 flex flex-col gap-2">
-              <p className="text-primary-white font-bold text-xl">
+              <p
+                className="text-primary-white font-bold text-xl"
+                key={projetos.id}
+              >
                 {projetos.title}
               </p>
-              <p className="text-primary-white">{projetos.description}</p>
+              <p className="text-primary-white" key={projetos.id}>
+                {projetos.description}
+              </p>
               <div className="flex gap-5 text-primary-white">
                 <a
                   className="hover:text-neon-green transition-all ease-linear"
+                  key={projetos.id}
                   href={projetos.projectLink}
                 >
                   Ver Projeto
                 </a>
                 <a
                   className="hover:text-neon-green transition-all ease-linear"
+                  key={projetos.id}
                   href={projetos.githubLink}
                 >
                   Github
                 </a>
               </div>
               <div className="flex gap-4 items-center flex-wrap mt-2">
-                <img className="h-9" src={projetos.html} />
-                <img className="h-7" src={projetos.css} />
-                <img className="h-7" src={projetos.js} />
-                <img className="h-7" src={projetos.scss} />
-                <img className="h-10" src={projetos.react} />
-                <img className="h-7" src={projetos.tailwind} />
-                <img className="h-7" src={projetos.vite} />
+                <img className="h-9" src={projetos.html} key={projetos.id} />
+                <img className="h-7" src={projetos.css} key={projetos.id} />
+                <img className="h-7" src={projetos.js} key={projetos.id} />
+                <img className="h-7" src={projetos.scss} key={projetos.id} />
+                <img className="h-10" src={projetos.react} key={projetos.id} />
+                <img className="h-7" src={projetos.tailwind} key={projetos.id} />
+                <img className="h-7" src={projetos.vite} key={projetos.id} />
               </div>
             </div>
           </div>
