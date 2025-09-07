@@ -29,18 +29,21 @@ const Email = () => {
         templateParams,
         "Q6-nivjrbHzX3d1uy"
       )
-      .then((response) => {
-        console.log("EMAIL ENVIADO", response.status, response.text);
-        setName("");
-        setEmail("");
-        setMessage("");
-      }, (err) => {
-        console.log("ERRO:", err)
-      });
+      .then(
+        (response) => {
+          console.log("EMAIL ENVIADO", response.status, response.text);
+          setName("");
+          setEmail("");
+          setMessage("");
+        },
+        (err) => {
+          console.log("ERRO:", err);
+        }
+      );
   }
 
   return (
-    <div className="border-2 border-solid border-border-white rounded-2xl p-20">
+    <div className="border-2 border-solid border-border-white rounded-2xl p-10 w-full">
       <form className="flex flex-col gap-5" onSubmit={sendEmail}>
         <h1 className="text-neon-green text-3xl font-bold">
           Envie uma mensagem!
