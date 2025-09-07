@@ -22,7 +22,7 @@ const Header = () => {
             href="#certificates"
             className="hover:text-neon-green transition-all ease-in-out"
           >
-            Certificador
+            Certificados
           </a>
           <a
             href="#contact"

@@ -1,11 +1,15 @@
 import Experiences from "./Experiences";
 import Formations from "./Formations";
+import Title from "./Title";
 
 const Skills = () => {
   return (
     <div>
-      <h1 className="font-bold text-3xl text-neon-green mb-6">Competências</h1>
-      <div className="flex auto-cols-auto">
+      <Title
+        title="Competências"
+        subtitle="Confira minha Formações e Experiências"
+      />
+      <div className="flex">
         <Formations />
         <div className=" flex flex-col items-center">
           <div className="w-4 h-4 bg-neon-green rounded-full"></div>

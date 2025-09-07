@@ -6,7 +6,7 @@ const Formations = () => {
         Formação
       </h2>
       <div>
-        <div className="mt-8 mr-5 flex flex-col gap-3 bg-grayBg p-3 border-1 border-border-white rounded-border-standard text-primary-white hover:-translate-y-3 hover:border-neon-green transition-all ease-in-out">
+        <div className="mt-8 mr-5 flex flex-col gap-3 bg-grayBg p-3 border-1 border-border-white rounded-border-standard text-primary-white hover:-translate-y-3 hover:border-neon-green transition-all hover:shadow-lg hover:shadow-green-500 ease-in-out">
           <div>
             <p className="font-bold text-xl">
               Análise e Desenvolvimento de Sistemas
