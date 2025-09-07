@@ -18,7 +18,7 @@ const Social = () => {
         <Github />
       </a>
       <a
-        href="www.linkedin.com/in/kauanconstancio"
+        href="https://www.linkedin.com/in/kauanconstancio"
         target="_blank"
         className="hover:bg-neon-green p-2 rounded-full hover:text-black transition-all ease-linear shadow-md shadow-green-500"
       >

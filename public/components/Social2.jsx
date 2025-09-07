@@ -11,6 +11,7 @@ const Social2 = () => {
         Me conte mais como posso te ajudar!
       </p>
       <SocialInput
+        link="https://www.linkedin.com/in/kauanconstancio"
         icon={<Linkedin />}
         iconClass="w-10 h-10 flex items-center justify-center bg-blue-950 text-blue-500 rounded-xl"
         socialPlatform="LinkedIn"
@@ -18,18 +19,21 @@ const Social2 = () => {
       />
       <div className="grid grid-cols-2 gap-5">
         <SocialInput
+          link="https://www.instagram.com/kauanconstancio/"
           icon={<Instagram />}
           iconClass="w-10 h-10 flex items-center justify-center bg-red-950 text-red-500 rounded-xl"
           socialPlatform="Instagram"
           description="@kauanconstancio"
         />
         <SocialInput
+          link="https://wa.me/5527995323227"
           icon={<MessageCircle />}
           iconClass="w-10 h-10 flex items-center justify-center bg-green-950 text-green-500 rounded-xl"
           socialPlatform="WhatsApp"
           description="Mande uma.."
         />
         <SocialInput
+          link="https://github.com/kauanconstancio"
           icon={<Github />}
           iconClass="w-10 h-10 flex items-center justify-center bg-gray-500 text-white rounded-xl"
           socialPlatform="GitHub"

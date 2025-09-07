@@ -12,7 +12,7 @@ const Email = () => {
     e.preventDefault();
 
     if (name === "" || email === "" || message === "") {
-      alert("Preencha todos os campos!");
+      alert("Preencha todos os campos antes de enviar a mensagem!");
       return;
     }
 
@@ -66,7 +66,7 @@ const Email = () => {
 
         <FormTextarea
           value={message}
-          placeholder="Digite sua menssagem..."
+          placeholder="Digite sua mensagem..."
           onChange={(e) => setMessage(e.target.value)}
         />
 
