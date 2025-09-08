@@ -26,12 +26,14 @@ const Projects = () => {
                 <a
                   className="hover:text-neon-green transition-all ease-linear underline"
                   href={projetos.projectLink}
+                  target="_blank"
                 >
                   Ver Projeto
                 </a>
                 <a
                   className="hover:text-neon-green transition-all ease-linear underline"
                   href={projetos.githubLink}
+                  target="_blank"
                 >
                   Github
                 </a>
