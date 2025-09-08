@@ -2,7 +2,7 @@ const FormInputs = (props) => {
   return (
     <div>
       <input
-        className="border-1 border-border-white rounded-2xl p-5 w-full text-white placeholder:text-white"
+        className="border-1 border-border-white rounded-2xl p-5 w-full text-white placeholder:text-white outline-none"
         type={props.type}
         placeholder={props.placeholder}
         onChange={props.onChange}

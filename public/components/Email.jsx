@@ -44,32 +44,33 @@ const Email = () => {
 
   return (
     <div className="border-2 border-solid border-border-white rounded-2xl p-10 w-full">
-      <form className="flex flex-col gap-5" onSubmit={sendEmail}>
-        <h1 className="text-neon-green text-3xl font-bold">
-          Envie uma mensagem!
-        </h1>
-        <p className="text-white font-medium">
-          Me conte mais como posso te ajudar!
-        </p>
-        <FormInputs
-          type="text"
-          onChange={(e) => setName(e.target.value)}
-          placeholder="Digite seu nome"
-          value={name}
-        />
-        <FormInputs
-          type="email"
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="Digite seu email"
-          value={email}
-        />
+      <form className="flex flex-col gap-5 items-center" onSubmit={sendEmail}>
+        <div className="flex flex-col gap-5 w-full">
+          <h1 className="text-neon-green text-3xl font-bold">
+            Envie uma mensagem!
+          </h1>
+          <p className="text-white font-medium">
+            Me conte mais como posso te ajudar!
+          </p>
+          <FormInputs
+            type="text"
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Digite seu nome"
+            value={name}
+          />
+          <FormInputs
+            type="email"
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Digite seu email"
+            value={email}
+          />
 
-        <FormTextarea
-          value={message}
-          placeholder="Digite sua mensagem..."
-          onChange={(e) => setMessage(e.target.value)}
-        />
-
+          <FormTextarea
+            value={message}
+            placeholder="Digite sua mensagem..."
+            onChange={(e) => setMessage(e.target.value)}
+          />
+        </div>
         <FormSubmitButton />
       </form>
     </div>

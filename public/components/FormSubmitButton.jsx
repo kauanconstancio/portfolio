@@ -4,7 +4,7 @@ const FormSubmitButton = () => {
   return (
     <div>
       <button
-        className="text-xl text-white p-5 border-1 rounded-2xl border-solid border-border-white cursor-pointer flex items-center justify-center gap-3 w-full"
+        className="text-xl text-white p-5 border-1 rounded-2xl border-solid border-neon-green cursor-pointer flex items-center justify-center gap-3 "
         type="submit"
         value="enviar"
       >

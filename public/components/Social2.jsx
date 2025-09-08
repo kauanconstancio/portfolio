@@ -10,14 +10,14 @@ const Social2 = () => {
       <p className="text-white font-medium">
         Me conte mais como posso te ajudar!
       </p>
-      <SocialInput
-        link="https://www.linkedin.com/in/kauanconstancio"
-        icon={<Linkedin />}
-        iconClass="w-10 h-10 flex items-center justify-center bg-blue-950 text-blue-500 rounded-xl"
-        socialPlatform="LinkedIn"
-        description="Vamos Conectar!"
-      />
       <div className="grid grid-cols-2 gap-5">
+        <SocialInput
+          link="https://www.linkedin.com/in/kauanconstancio"
+          icon={<Linkedin />}
+          iconClass="w-10 h-10 flex items-center justify-center bg-blue-950 text-blue-500 rounded-xl"
+          socialPlatform="LinkedIn"
+          description="Vamos Conectar!"
+        />
         <SocialInput
           link="https://www.instagram.com/kauanconstancio/"
           icon={<Instagram />}
