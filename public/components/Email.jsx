@@ -4,6 +4,8 @@ import FormSubmitButton from "./FormSubmitButton";
 import emailjs from "@emailjs/browser";
 
 const Email = () => {
+  //utilizando Emailjs
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
