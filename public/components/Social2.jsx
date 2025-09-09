@@ -10,7 +10,7 @@ const Social2 = () => {
       <p className="text-white font-medium">
         Me conte mais como posso te ajudar!
       </p>
-      <div className="grid grid-cols-2 gap-5">
+      <div className="flex flex-col lg:grid lg:grid-cols-2 gap-5">
         <SocialInput
           link="https://www.linkedin.com/in/kauanconstancio"
           icon={<Linkedin />}

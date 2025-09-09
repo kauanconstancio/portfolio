@@ -5,10 +5,10 @@ const Projects = () => {
   return (
     <div className="flex flex-col" id="projects">
       <Title title="Portfolio" subtitle="Confira meus projetos" />
-      <div className="flex flex-wrap justify-center items-center gap-7">
+      <div className="flex flex-wrap justify-center items-center gap-5">
         {Projetos.map((projetos) => (
           <div
-            className="border-border-white border-solid border-2 p-4 grow-1 max-w-[500px] rounded-2xl"
+            className="border-border-white border-solid border-2 p-4 grow-1 md:max-w-[350px] lg:max-w-[390px] rounded-2xl"
             key={projetos.id}
           >
             <img

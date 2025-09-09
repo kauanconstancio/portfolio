@@ -4,9 +4,9 @@ import Title from "./Title";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="w-full">
       <Title title="Contato" subtitle="Vamos trabalhar juntos?" />
-      <div className="flex auto-cols-auto gap-5 w-full">
+      <div className="flex flex-wrap lg:flex-nowrap gap-5 w-full">
         <Email />
         <Social2 />
       </div>
