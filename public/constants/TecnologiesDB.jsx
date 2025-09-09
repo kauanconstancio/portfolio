@@ -1,14 +1,14 @@
-import figma from "../../src/assets/logos/figma-color.png";
-import vscode from "../../src/assets/logos/VSCODE.png";
-import git from "../../src/assets/logos/git-icon.svg";
-import github from "../../src/assets/logos/github.png";
-import html from "../../src/assets/logos/HTML.png";
-import css from "../../src/assets/logos/css-3.svg";
-import sass from "../../src/assets/logos/sass-1.svg";
-import javascript from "../../src/assets/logos/JavaScript-logo.png";
-import react from "../../src/assets/logos/REACT.svg";
-import vite from "../../src/assets/logos/Vitejs-logo.svg.png";
-import tailwind from "../../src/assets/logos/tailwind_CSS_Logo.svg.png";
+import figma from "../assets/logos/figma-color.png";
+import vscode from "../assets/logos/VSCODE.png";
+import git from "../assets/logos/git-icon.svg";
+import github from "../assets/logos/github.png";
+import html from "../assets/logos/HTML.png";
+import css from "../assets/logos/css-3.svg";
+import sass from "../assets/logos/sass-1.svg";
+import javascript from "../assets/logos/JavaScript-logo.png";
+import react from "../assets/logos/REACT.svg";
+import vite from "../assets/logos/Vitejs-logo.svg.png";
+import tailwind from "../assets/logos/Tailwind_CSS_Logo.svg.png";
 
 const Tech = [
   {
