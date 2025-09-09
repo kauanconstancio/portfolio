@@ -1,4 +1,5 @@
 import Social from "./Social";
+import profile from "../../src/assets/Imagem do WhatsApp de 2025-03-13 à(s) 20.29.13_9b424798.jpg";
 
 const Hero = () => {
   return (
@@ -16,7 +17,7 @@ const Hero = () => {
       </div>
       <img
         className="rounded-full h-60 aspect-square object-cover outline-white border-solid outline-2"
-        src="../src/assets/Imagem do WhatsApp de 2025-03-13 à(s) 20.29.13_9b424798.jpg"
+        src={profile}
       />
     </div>
   );
