@@ -5,7 +5,7 @@ const Header = () => {
         <div>
           <span className="font-bold">Kauan</span>Constancio
         </div>
-        <div className="flex text-primary-white align-center gap-5 text-lg font-medium ">
+        <div className="hidden sm:flex text-primary-white align-center gap-5 text-lg font-medium">
           <a
             href="#tecnologies"
             className="hover:text-neon-green transition-all ease-in-out"

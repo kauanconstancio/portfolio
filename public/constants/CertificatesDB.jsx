@@ -1,5 +1,11 @@
 const CertificatesDB = [
   {
+    certificate: "../../src/assets/certificates/Codecon Summit 2025.png",
+    pdflink: "../../src/assets/certificates/Codecon Summit 2025.png",
+    class: ".alura .events .item",
+    id: 20,
+  },
+  {
     certificate:
       "../../src/assets/certificates/Captura de tela 2025-01-12 203204.png",
     pdflink:
@@ -150,6 +156,25 @@ const CertificatesDB = [
       "../../src/assets/certificates/Captura de tela 2025-04-15 153611.png",
     class: ".alura .formations .item",
     id: 19,
+  },
+  {
+    certificate:
+      "../../src/assets/certificates/Praticando css grid e flexbox.png",
+    pdflink: "../../src/assets/certificates/Praticando css grid e flexbox.png",
+    class: ".alura .item",
+    id: 21,
+  },
+  {
+    certificate: "../../src/assets/certificates/Manipulando eventos no DOM.png",
+    pdflink: "../../src/assets/certificates/Manipulando eventos no DOM.png",
+    class: ".alura .item",
+    id: 22,
+  },
+  {
+    certificate: "../../src/assets/certificates/Javascript para web.png",
+    pdflink: "../../src/assets/certificates/Javascript para web.png",
+    class: ".alura .item",
+    id: 23,
   },
 ];
 
