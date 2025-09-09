@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div>
+    <div className="max-w-[1600px]">
       <h1 className="text-2xl flex justify-between text-primary-white">
         <div>
           <span className="font-bold">Kauan</span>Constancio

@@ -3,7 +3,7 @@ import Tech from "../constants/TecnologiesDB";
 
 const Tecnologies = () => {
   return (
-    <div id="tecnologies">
+    <div id="tecnologies" className="max-w-[1600px]">
       <Title title="Tecnologias" subtitle="Tecnologias nas quais atuo" />
       <div className="w-full">
         <ul className="flex flex-wrap gap-10 justify-center p-8">

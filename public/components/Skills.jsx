@@ -4,7 +4,7 @@ import Title from "./Title";
 
 const Skills = () => {
   return (
-    <div>
+    <div className="max-w-[1600px]">
       <Title
         title="Competências"
         subtitle="Confira minha Formações e Experiências"

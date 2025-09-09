@@ -3,7 +3,7 @@ import profile from "../../src/assets/Imagem do WhatsApp de 2025-03-13 à(s) 20.
 
 const Hero = () => {
   return (
-    <div className="mt-15 flex flex-col-reverse md:flex-row items-center justify-center gap-20">
+    <div className="mt-15 flex flex-col-reverse md:flex-row items-center justify-center gap-20 max-w-[1600px]">
       <div className="text-primary-white">
         <h3 className="font-bold text-2xl">Hello, i'm Kauan.</h3>
         <h1 className="text-4xl font-extrabold">Front End Developer</h1>

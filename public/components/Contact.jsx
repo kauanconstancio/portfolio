@@ -4,7 +4,7 @@ import Title from "./Title";
 
 const Contact = () => {
   return (
-    <div className="w-full">
+    <div className="w-full max-w-[1600px]">
       <Title title="Contato" subtitle="Vamos trabalhar juntos?" />
       <div className="flex flex-wrap lg:flex-nowrap gap-5 w-full">
         <Email />

@@ -9,7 +9,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="py-4 w-full px-5 md:px-15 box-border flex flex-col justify-center items-center gap-30 max-w-[1600px]">
+    <div className="py-4 w-full px-5 md:px-15 box-border flex flex-col justify-center items-center gap-30 ">
       <div>
         <Header />
         <Hero />

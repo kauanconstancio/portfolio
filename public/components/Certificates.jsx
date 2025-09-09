@@ -7,7 +7,7 @@ const Certificates = () => {
   const totalCertificates = CertificatesDB.length;
 
   return (
-    <div id="certificates">
+    <div id="certificates" className="max-w-[1600px]">
       <Title title="Certificados" subtitle="Confira minhas conquistas" />
       <div className="flex flex-col gap-10">
         <h1 className="text-primary-white text-xl font-medium">

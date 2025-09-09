@@ -1,6 +1,8 @@
+import p1 from "../../src/assets/projects-img/Captura de tela 2025-01-12 174914.png";
+
 const Projetos = [
   {
-    img: "../src/assets/projects-img/Captura de tela 2025-01-12 174914.png",
+    img: p1,
     title: "Biblioteca de Jogos",
     projectLink: "https://imerss-o-dev-alura-google-gemini.vercel.app/",
     githubLink:
@@ -12,7 +14,7 @@ const Projetos = [
     id: 14568,
   },
   {
-    img: "../src/assets/projects-img/Captura de tela 2025-01-13 124340.png",
+    img: "../../src/assets/projects-img/Captura de tela 2025-01-13 124340.png",
     title: "Adivinhação de Números",
     projectLink: "https://l-gica-com-js.vercel.app/",
     githubLink:
