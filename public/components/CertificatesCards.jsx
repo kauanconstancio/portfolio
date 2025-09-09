@@ -8,7 +8,7 @@ const CertificatesCards = () => {
           <img
             src={Certificados.certificate}
             alt=""
-            className="w-45 lg:w-55 rounded-2xl"
+            className="w-35 lg:w-55 rounded-2xl"
           />
           <a
             href={Certificados.pdflink}
