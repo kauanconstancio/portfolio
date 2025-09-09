@@ -9,7 +9,7 @@ const Tecnologies = () => {
         <ul className="flex flex-wrap gap-7 justify-center p-8">
           {Tech.map((Techs) => (
             <li
-              className="flex flex-col items-center justify-center gap-3 w-30 h-30 md:w-35 md:h-35 border-border-white border-solid border-2 p-7 rounded-2xl hover:-translate-y-3 hover:border-neon-green transition-all hover:shadow-lg hover:shadow-green-500 ease-in-out"
+              className="flex flex-col items-center justify-center gap-3 w-30 h-30 md:w-35 md:h-35 border-border-white border-solid border-2 p-7 rounded-2xl hover:scale-110 hover:border-neon-green transition-all hover:shadow-lg hover:shadow-green-500 ease-in-out"
               key={Techs.id}
             >
               <img

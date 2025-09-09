@@ -24,14 +24,14 @@ const Projects = () => {
               {/* Projects Links */}
               <div className="flex gap-5 text-primary-white">
                 <a
-                  className="hover:text-neon-green transition-all ease-linear underline"
+                  className="hover:text-neon-green hover:scale-110 transition-all ease-linear underline"
                   href={projetos.projectLink}
                   target="_blank"
                 >
                   Ver Projeto
                 </a>
                 <a
-                  className="hover:text-neon-green transition-all ease-linear underline"
+                  className="hover:text-neon-green hover:scale-110 transition-all ease-linear underline"
                   href={projetos.githubLink}
                   target="_blank"
                 >
@@ -40,14 +40,35 @@ const Projects = () => {
               </div>
 
               {/* Projects frameworks useds */}
-              <div className="flex gap-7 items-center mt-10">
-                <img className="h-10" src={projetos.html} />
-                <img className="h-10" src={projetos.css} />
-                <img className="h-10" src={projetos.js} />
-                <img className="h-10" src={projetos.scss} />
-                <img className="h-10" src={projetos.react} />
-                <img className="h-7" src={projetos.tailwind} />
-                <img className="h-7" src={projetos.vite} />
+              <div className="flex gap-4 items-center mt-5">
+                <img
+                  className="h-7 transition-all ease-in-out hover:scale-115"
+                  src={projetos.html}
+                />
+                <img
+                  className="h-7 transition-all ease-in-out hover:scale-115"
+                  src={projetos.css}
+                />
+                <img
+                  className="h-7 transition-all ease-in-out hover:scale-115"
+                  src={projetos.js}
+                />
+                <img
+                  className="h-7 transition-all ease-in-out hover:scale-115"
+                  src={projetos.scss}
+                />
+                <img
+                  className="h-7 transition-all ease-in-out hover:scale-115"
+                  src={projetos.react}
+                />
+                <img
+                  className="h-3 transition-all ease-in-out hover:scale-115"
+                  src={projetos.tailwind}
+                />
+                <img
+                  className="h-3 transition-all ease-in-out hover:scale-115"
+                  src={projetos.vite}
+                />
               </div>
             </div>
           </div>

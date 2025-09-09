@@ -8,25 +8,25 @@ const Header = () => {
         <div className="hidden sm:flex text-primary-white align-center gap-5 text-lg font-medium">
           <a
             href="#tecnologies"
-            className="hover:text-neon-green transition-all ease-in-out"
+            className="hover:text-neon-green hover:scale-110 transition-all ease-in-out"
           >
             Tecnologias
           </a>
           <a
             href="#projects"
-            className="hover:text-neon-green transition-all ease-in-out"
+            className="hover:text-neon-green hover:scale-110 transition-all ease-in-out"
           >
             Projetos
           </a>
           <a
             href="#certificates"
-            className="hover:text-neon-green transition-all ease-in-out"
+            className="hover:text-neon-green hover:scale-110 transition-all ease-in-out"
           >
             Certificados
           </a>
           <a
             href="#contact"
-            className="hover:text-neon-green transition-all ease-in-out"
+            className="hover:text-neon-green hover:scale-110 transition-all ease-in-out"
           >
             Contato
           </a>
