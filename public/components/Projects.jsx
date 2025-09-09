@@ -12,7 +12,7 @@ const Projects = () => {
             key={projetos.id}
           >
             <img
-              className="rounded-border-standard h-[230px] w-full object-cover"
+              className="rounded-border-standard h-[150px] w-full object-cover"
               src={projetos.img}
             />
             <div className="p-5 flex flex-col gap-2">
@@ -62,12 +62,12 @@ const Projects = () => {
                   src={projetos.react}
                 />
                 <img
-                  className="h-3 transition-all ease-in-out hover:scale-115"
-                  src={projetos.tailwind}
+                  className="h-7 transition-all ease-in-out hover:scale-115"
+                  src={projetos.vite}
                 />
                 <img
-                  className="h-3 transition-all ease-in-out hover:scale-115"
-                  src={projetos.vite}
+                  className="h-7 transition-all ease-in-out hover:scale-115"
+                  src={projetos.tailwind}
                 />
               </div>
             </div>
