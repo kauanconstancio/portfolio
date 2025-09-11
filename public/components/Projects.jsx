@@ -40,7 +40,7 @@ const Projects = () => {
               </div>
 
               {/* Projects frameworks useds */}
-              <div className="flex gap-4 items-center mt-5">
+              <div className="flex flex-wrap space-x-2 items-center mt-5">
                 <img
                   className="h-7 transition-all ease-in-out hover:scale-115"
                   src={projetos.html}
@@ -68,6 +68,22 @@ const Projects = () => {
                 <img
                   className="h-7 transition-all ease-in-out hover:scale-115"
                   src={projetos.tailwind}
+                />
+                <img
+                  className="h-7 transition-all ease-in-out hover:scale-115 bg-white rounded-2xl"
+                  src={projetos.nextjs}
+                />
+                <img
+                  className="h-7 transition-all ease-in-out hover:scale-115 bg-white"
+                  src={projetos.lucide}
+                />
+                <img
+                  className="h-7 transition-all ease-in-out hover:scale-115 bg-white"
+                  src={projetos.shadcn}
+                />
+                <img
+                  className="h-7 transition-all ease-in-out hover:scale-115 bg-white"
+                  src={projetos.typescript}
                 />
               </div>
             </div>

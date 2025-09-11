@@ -4,7 +4,10 @@ import Tech from "../constants/TecnologiesDB";
 const Tecnologies = () => {
   return (
     <div id="tecnologies" className="max-w-[1600px]">
-      <Title title="Tecnologias" subtitle="Tecnologias nas quais atuo" />
+      <Title
+        title="Tecnologias"
+        subtitle="Tecnologias nas quais atuo / uso no dia a dia"
+      />
       <div className="w-full">
         <ul className="flex flex-wrap gap-7 justify-center p-8">
           {Tech.map((Techs) => (

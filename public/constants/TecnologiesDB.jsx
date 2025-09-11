@@ -9,6 +9,10 @@ import javascript from "../assets/logos/JavaScript-logo.png";
 import react from "../assets/logos/REACT.svg";
 import vite from "../assets/logos/Vitejs-logo.svg.png";
 import tailwind from "../assets/logos/Tailwind_CSS_Logo.svg.png";
+import nextjs from "../assets/logos/next-js.svg";
+import lucide from "../assets/logos/lucide.png";
+import shadcn from "../assets/logos/shadcn.png";
+import typescript from "../assets/logos/typescript.svg";
 
 const Tech = [
   {
@@ -65,6 +69,26 @@ const Tech = [
     logo: tailwind,
     title: "TailwindCSS",
     id: 78,
+  },
+  {
+    logo: nextjs,
+    title: "Next.JS",
+    id: 7124,
+  },
+  {
+    logo: lucide,
+    title: "Lucide",
+    id: 7124123,
+  },
+  {
+    logo: shadcn,
+    title: "Shadcn",
+    id: 712,
+  },
+  {
+    logo: typescript,
+    title: "TypeScript",
+    id: 748,
   },
 ];
 
