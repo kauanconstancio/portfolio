@@ -15,6 +15,7 @@ function App() {
         <Hero />
       </div>
       <Skills />
+      <Skills />
       <Tecnologies />
       <Projects />
       <Certificates />
