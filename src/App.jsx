@@ -1,10 +1,10 @@
-import Certificates from "../public/components/Certificates";
-import Contact from "../public/components/Contact";
-import Header from "../public/components/Header";
-import Hero from "../public/components/Hero";
-import Projects from "../public/components/Projects";
-import Skills from "../public/components/Skills";
-import Tecnologies from "../public/components/Tecnologies";
+import Certificates from "./components/Certificates";
+import Contact from "./components/Contact";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Tecnologies from "./components/Tecnologies";
 import "./App.css";
 
 function App() {

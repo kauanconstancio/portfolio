@@ -1,5 +1,5 @@
 import Social from "./Social";
-import profile from "../assets/Imagem do WhatsApp de 2025-03-13 à(s) 20.29.13_9b424798.jpg";
+import profile from "/assets/Imagem do WhatsApp de 2025-03-13 à(s) 20.29.13_9b424798.jpg";
 
 const Hero = () => {
   return (

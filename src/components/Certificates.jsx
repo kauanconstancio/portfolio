@@ -1,6 +1,6 @@
 import CertificatesDB from "../constants/CertificatesDB";
 import CertificatesCards from "./CertificatesCards";
-import CertificateButton from "./CetificateButtons";
+import CertificateButton from "./CertificateButtons";
 import Title from "./Title";
 
 const Certificates = () => {
