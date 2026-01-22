@@ -6,8 +6,6 @@ const ProjectsDB = [
     liveUrl: "https://chat-bot-one-olive.vercel.app/",
     githubUrl: "https://github.com/kauanconstancio/chat-bot",
     technologies: [
-      { name: "HTML", color: "orange" },
-      { name: "CSS", color: "blue" },
       { name: "NextJS", color: "gray" },
       { name: "TypeScript", color: "blue" },
       { name: "Tailwind", color: "blue" },
@@ -22,8 +20,6 @@ const ProjectsDB = [
     liveUrl: "https://portfolio-five-eosin-41.vercel.app/",
     githubUrl: "https://github.com/kauanconstancio/portfolio",
     technologies: [
-      { name: "HTML", color: "orange" },
-      { name: "CSS", color: "blue" },
       { name: "JavaScript", color: "yellow" },
       { name: "React", color: "blue" },
       { name: "Vite", color: "green" },
@@ -84,6 +80,24 @@ const ProjectsDB = [
       { name: "CSS", color: "blue" },
       { name: "JavaScript", color: "yellow" },
       { name: "Sass", color: "pink" },
+    ],
+  },
+  {
+    id: 7,
+    title: "Solvoo - Ecommerce de Serviços",
+    image: "/assets/projects-img/solvoo.png",
+    liveUrl:
+      "https://id-preview--4c106cc5-8d78-4aa1-aad7-d84cfbb2d59c.lovable.app/",
+    githubUrl: "https://github.com/kauanconstancio/solvoo_2.0",
+    technologies: [
+      { name: "TypeScript", color: "blue" },
+      { name: "React", color: "blue" },
+      { name: "Vite", color: "green" },
+      { name: "Tailwind", color: "blue" },
+      { name: "Lucide", color: "gray" },
+      { name: "ShadCN", color: "gray" },
+      { name: "Lovable", color: "pink" },
+      { name: "AbacatePay", color: "green" },
     ],
   },
 ];

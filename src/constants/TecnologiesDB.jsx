@@ -13,6 +13,7 @@ import nextjs from "/assets/logos/next-js.svg";
 import lucide from "/assets/logos/lucide.png";
 import shadcn from "/assets/logos/shadcn.png";
 import typescript from "/assets/logos/typescript.svg";
+import lovable from "/assets/logos/lovable.png";
 
 const Tech = [
   {
@@ -89,6 +90,11 @@ const Tech = [
     logo: typescript,
     title: "TypeScript",
     id: 748,
+  },
+  {
+    logo: lovable,
+    title: "Lovable AI",
+    id: 74597,
   },
 ];
 
