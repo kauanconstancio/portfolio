@@ -14,6 +14,9 @@ import lucide from "/assets/logos/lucide.png";
 import shadcn from "/assets/logos/shadcn.png";
 import typescript from "/assets/logos/typescript.svg";
 import lovable from "/assets/logos/lovable.png";
+import claude from "/assets/logos/claude.svg";
+import antigravity from "/assets/logos/google_antigravity.png";
+
 
 const Tech = [
   {
@@ -95,6 +98,16 @@ const Tech = [
     logo: lovable,
     title: "Lovable AI",
     id: 74597,
+  },
+  {
+    logo: claude,
+    title: "Claude",
+    id: 7459567,
+  },
+  {
+    logo: antigravity,
+    title: "Antigravity",
+    id: 745956,
   },
 ];
 
